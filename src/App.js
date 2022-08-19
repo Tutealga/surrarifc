@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 function App() {
@@ -6,8 +6,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>
+          Carniceria El Origen
+        </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Algañaras Mateo
         </p>
         <a
           className="App-link"
