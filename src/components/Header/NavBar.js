@@ -1,11 +1,13 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import CartWidget from '../CartWidget';
 import logo from './logo.png';
+import './NavBar.css'
 
 const NavBar = () => {
   return (
-    <Navbar style={{backgroundColor: '#9b0006'}} expand="lg">
+    <Navbar id="header" expand="lg">
       <Container fluid>
         <Navbar.Brand href="/"><img src={logo} className="App-logo" alt="logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -15,9 +17,10 @@ const NavBar = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">TIENDA</Nav.Link>
-            <Nav.Link href="#action2">PLANTILLA</Nav.Link>
-            <Nav.Link href="#action2">FOTOS</Nav.Link>
+            <Nav.Link className="categorias" href="#action1">TIENDA</Nav.Link>
+            <Nav.Link className="categorias" href="#action2">PLANTILLA</Nav.Link>
+            <Nav.Link className="categorias" href="#action2">FOTOS</Nav.Link>
+            <Nav.Link className="categorias" href="#"><CartWidget /></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

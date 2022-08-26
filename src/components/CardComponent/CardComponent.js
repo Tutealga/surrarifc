@@ -1,16 +1,17 @@
 import Card from 'react-bootstrap/Card';
+import './CardComponent.css'
 
 const CardComponent = ({ nombre, posicion, numero, img }) => {
   return (
-    <Card style={{ width: '100%', backgroundColor: '#9b0006', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: '450px', backgroundImage: `url(${img})`}}>
+    <Card id="card-body" style={{ backgroundImage: `url(${img})` }}>
       <Card.Body>
-      <Card.Text style={{color:'#ffffff'}}>
+      <Card.Text className="text-color-blanco">
           {numero}
         </Card.Text>
       <Card.Text style={{color:'#fff201'}}>
           {posicion}
         </Card.Text>
-        <Card.Title style={{color:'#ffffff'}}>{nombre}</Card.Title>
+        <Card.Title className="text-color-blanco">{nombre}</Card.Title>
       </Card.Body>
     </Card>
   );

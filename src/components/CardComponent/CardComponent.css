@@ -1,0 +1,12 @@
+#card-body{
+    width: 100%; 
+    background-color: #9b0006; 
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 450px; 
+}
+
+.text-color-blanco{
+    color:#fff;
+}
