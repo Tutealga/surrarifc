@@ -1,7 +1,7 @@
 import './App.css';
 import NavBar from './components/Header/NavBar';
 import React from 'react'
-import ItemListContainer from './components/ItemListContainer';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 class App extends React.Component {
  render(){
@@ -9,7 +9,6 @@ class App extends React.Component {
    <div>
     <NavBar />
     <ItemListContainer 
-    title='Sitio Oficial de Surrari F.C'
     />
    </div>
   );
