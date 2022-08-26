@@ -2,10 +2,14 @@
   text-align: center;
 }
 
+.bg-danger {
+  background: #9b0006 !important;
+}
+
 .App-logo {
   height: auto;
   pointer-events: none;
-  width: 140px;
+  width: 100px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

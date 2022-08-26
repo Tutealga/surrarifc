@@ -1,11 +1,11 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../logo.png';
+import logo from './logo.png';
 
 const NavBar = () => {
   return (
-    <Navbar bg="danger" expand="lg">
+    <Navbar style={{backgroundColor: '#9b0006'}} expand="lg">
       <Container fluid>
         <Navbar.Brand href="/"><img src={logo} className="App-logo" alt="logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -15,9 +15,9 @@ const NavBar = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Vacuna</Nav.Link>
-            <Nav.Link href="#action2">Cerdo</Nav.Link>
-            <Nav.Link href="#action3">Pollo</Nav.Link>
+            <Nav.Link href="#action1">TIENDA</Nav.Link>
+            <Nav.Link href="#action2">PLANTILLA</Nav.Link>
+            <Nav.Link href="#action2">FOTOS</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

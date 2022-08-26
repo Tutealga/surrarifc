@@ -1,29 +1,44 @@
-import logo from './logo.png';
 import './App.css';
-import NavBar from './components/NavBar';
+import NavBar from './components/Header/NavBar';
+import React from 'react'
+import CardComponent from './components/CardComponent/CardComponent';
+import Container from 'react-bootstrap/Container';
 
-function App() {
-  return (
-    <div className="App">
-      <NavBar />
-      <header className="App-header">
-        <h1>
-          Carniceria El Origen
-        </h1>
-        <p>
-          Algañaras Mateo
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+class App extends React.Component {
+ render(){
+  return(
+   <div>
+    <NavBar />
+    <h1>Surrari F.C</h1>
+    <Container style={{display:'flex'}}>
+      <CardComponent 
+      posicion='Portero'
+      nombre='Ignacio Terra Brandes'
+      numero='23'
+      img='./components/CardComponent/card-season23.png'
+      />
+      <CardComponent 
+      posicion='Delantero'
+      nombre='Mateo Algañaras'
+      numero='21'
+      img=''
+      />
+      <CardComponent 
+      posicion='Delantero'
+      nombre='Sergio Jerez'
+      numero='9'
+      img=''
+      />
+      <CardComponent 
+      posicion='Delantero'
+      nombre='Francisco Mediavilla'
+      numero='10'
+      img=''
+      />
+    </Container>
+   </div>
   );
+ }
 }
 
 export default App;
