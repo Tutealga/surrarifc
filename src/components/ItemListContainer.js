@@ -10,7 +10,7 @@ const ItemListContainer = ({title}) => {
       posicion='Portero'
       nombre='Ignacio Terra Brandes'
       numero='23'
-      img='http://localhost:3000/static/media/card-season23.46afd6810fc5914627c2.png'
+      img='./CardComponent/card-season23.png'
       />
       <CardComponent 
       posicion='Delantero'
