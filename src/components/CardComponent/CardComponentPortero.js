@@ -9,10 +9,10 @@ const CardComponentPortero = ({ nombre, posicion, numero }) => {
       <Card.Text className="numero text-color-blanco">
           {numero}
         </Card.Text>
-      <Card.Text style={{color:'#fff201'}}>
+      <Card.Text className="pPosicion">
           {posicion}
         </Card.Text>
-        <Card.Title className="text-color-blanco">{nombre}</Card.Title>
+        <Card.Title className="pNombre text-color-blanco">{nombre}</Card.Title>
       </Card.Body>
     </Card>
   );

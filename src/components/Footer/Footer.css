@@ -1,0 +1,39 @@
+*{
+    list-style-type: none;
+}
+
+.footer{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #9b0006;
+    color:#fff;  
+    padding: 3rem; 
+    margin-top: 50px;
+}
+
+.ulRedes{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+padding-left: 0px;
+}
+
+.ulRedes li a{
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.ulLinks{
+    padding-left: 0px;
+}
+
+.ulLinks li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.aLogo{
+    display: flex;
+    align-items: center;
+}

@@ -9,10 +9,6 @@
     margin:1rem;
 }
 
-.card-body{
-    flex-direction: column;
-}
-
 .text-color-blanco{
     color:#fff;
 }
