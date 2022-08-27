@@ -18,8 +18,8 @@ const Footer = () => {
       <div>
 <h6>ÚNETENOS</h6>
 <ul className='ulRedes'>
-<li><a href="https://www.instagram.com/surrarifc/"><i class="fa-brands fa-instagram"></i></a></li>
-  <li><a href="https://www.tiktok.com/@surrarifc"><i class="fa-brands fa-tiktok"></i></a></li>
+<li><a target="__blank" href="https://www.instagram.com/surrarifc/"><i class="fa-brands fa-instagram"></i></a></li>
+  <li><a target="__blank" href="https://www.tiktok.com/@surrarifc"><i class="fa-brands fa-tiktok"></i></a></li>
 </ul>
 <a className="aLogo"><div><Navbar.Brand href="/"><img src={logo} className="App-logo" alt="logo" /></Navbar.Brand></div></a>
       </div>     
