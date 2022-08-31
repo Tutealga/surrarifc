@@ -7,7 +7,7 @@ import background2 from '../CardComponent/card-season22.png'
 const ItemListContainer = () => {
   return (
     <Container className="divProduct">
-        <CardProduct initial={1} stock={5} img={background1} producto="Camiseta"/>
+        <CardProduct initial={1} stock={0} img={background1} producto="Camiseta"/>
         <CardProduct initial={1} stock={9} img={background2} producto="Camiseta portero"/>
     </Container>
   );

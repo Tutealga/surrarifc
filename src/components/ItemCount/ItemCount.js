@@ -2,7 +2,7 @@ import './ItemCount.css';
 import { useState } from "react";
 import { InputGroup, Button, FormControl } from "react-bootstrap";
 
-const ItemCount = ({ stock, initial }) => {
+const ItemCount = ({ stock, initial, onAdd}) => {
     const [contador, setContador] = useState(initial);
 
     const agregar = () => {
@@ -23,7 +23,7 @@ const ItemCount = ({ stock, initial }) => {
                 />
                 <Button id="btnIncrementar" className="pt-0" onClick={agregar}>+</Button>
             </InputGroup>
-            <Button id="btnAgregarCarrito" className="pt-1">
+            <Button onClick={() => onAdd(contador)} id="btnAgregarCarrito" className="pt-1">
                 Agregar al carrito
             </Button>
         </div>

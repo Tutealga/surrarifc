@@ -15,9 +15,9 @@ const Defensa = ({title}) => {
         img={background}
         />
         <CardJugador 
-        posicion='DEFENSA'
-        nombre='Santiago Fraga'
-        numero='17'
+        posicion='DEFENSA CENTRAL'
+        nombre='Mateo Fraga'
+        numero='4'
         img={background}
         />
         <CardJugador
@@ -27,9 +27,9 @@ const Defensa = ({title}) => {
         img={background}
         />
         <CardJugador 
-        posicion='DEFENSA CENTRAL'
-        nombre='Mateo Fraga'
-        numero='4'
+        posicion='DEFENSA'
+        nombre='Santiago Fraga'
+        numero='17'
         img={background}
         />
           </Container> 
