@@ -1,7 +1,6 @@
-import Container from 'react-bootstrap/Container';
 import './Footer.css'
 import logo from './logo.png';
-import Navbar from 'react-bootstrap/Navbar';
+import { Navbar,Container } from 'react-bootstrap';
 
 const Footer = () => {
   return (

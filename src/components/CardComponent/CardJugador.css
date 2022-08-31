@@ -1,4 +1,8 @@
-#card-body{
+.card-body{
+    display: grid;
+}
+
+#card{
     background-color: #9b0006; 
     background-position: center; 
     background-size: cover; 

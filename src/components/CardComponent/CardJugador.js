@@ -1,10 +1,9 @@
-import Card from 'react-bootstrap/Card';
-import './CardComponent.css'
-import background from './card-season22.png'
+import {Card} from 'react-bootstrap';
+import './CardJugador.css'
 
-const CardComponentPortero = ({ nombre, posicion, numero }) => {
+const CardJugador = ({ nombre, posicion, numero, img }) => {
   return (
-    <Card id="card-body" style={{ backgroundImage: `url(${background})`}}>
+    <Card id="card" style={{ backgroundImage: `url(${img})`}}>
       <Card.Body>
       <Card.Text className="numero text-color-blanco">
           {numero}
@@ -18,4 +17,4 @@ const CardComponentPortero = ({ nombre, posicion, numero }) => {
   );
 }
 
-export default CardComponentPortero;
+export default CardJugador;

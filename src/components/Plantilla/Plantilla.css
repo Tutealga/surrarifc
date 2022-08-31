@@ -1,4 +1,4 @@
-.divProduct{
+.itemListContainer{
     display:grid;
     grid-template-columns: repeat(4,1fr); 
   }
@@ -7,5 +7,5 @@
   margin: 50px 0;
   font-size: 1.5rem;
 }
-
+  
   

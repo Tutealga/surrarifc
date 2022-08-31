@@ -1,17 +1,14 @@
-import Container from 'react-bootstrap/Container';
-import Delantero from './Delantero/delantero';
+import {Container} from 'react-bootstrap';
 import './ItemListContainer.css'
-import Mediocampista from './Mediocampista/mediocampista';
-import Portero from './Portero/portero';
-import Defensa from './Defensa/defensa';
+import CardProduct from '../CardComponent/CardProduct';
+import background1 from '../CardComponent/card-season23.png'
+import background2 from '../CardComponent/card-season22.png'
 
-const ItemListContainer = ({}) => {
+const ItemListContainer = () => {
   return (
-    <Container>
-        <Portero title={'Porteros'} />
-        <Defensa title={'Defensas'}/>
-        <Mediocampista title={'Centrocampistas'}/>
-        <Delantero title={'Delanteros'}/>
+    <Container className="divProduct">
+        <CardProduct initial={1} stock={5} img={background1} producto="Camiseta"/>
+        <CardProduct initial={1} stock={9} img={background2} producto="Camiseta portero"/>
     </Container>
   );
 }
