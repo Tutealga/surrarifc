@@ -25,7 +25,7 @@ resolve(productos)
 
     return(
       <>
-      <ItemDetail info={informacion}/>
+      <ItemDetail key={informacion.id} info={informacion}/>
       </> 
     );
 }
