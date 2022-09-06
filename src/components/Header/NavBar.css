@@ -5,3 +5,11 @@
 #header{
     background-color: #9b0006;
 }
+
+.dropdown-menu{
+    background-color: #9b0006 !important;
+}
+
+#basic-nav-dropdown {
+    color: white;
+}

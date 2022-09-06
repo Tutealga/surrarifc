@@ -1,7 +1,8 @@
 #btnAgregarCarrito {
-    border-color: #fff;
-    background-color: transparent;
+    border-color: #9b0006;
+    background-color: #9b0006;
     color: #fff;
+    padding: 1rem;
 }
 
 #btnIncrementar, #btnDecrementar {
@@ -14,6 +15,7 @@
 
 #cantidadAgregarCarrito{
     font-weight: 700;
+    border: none;
 }
 
 #divAgregarCarrito{

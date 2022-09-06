@@ -1,24 +1,29 @@
-import {Container,Nav,Navbar} from 'react-bootstrap';
+import {Container,Nav,Navbar,NavDropdown} from 'react-bootstrap';
 import CartWidget from '../CartWidget/CartWidget';
 import logo from './logo.png';
-import './NavBar.css'
+import './NavBar.css';
+import {NavLink} from 'react-router-dom';
 
 const NavBar = () => {
   return (
     <Navbar id="header" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="/"><img src={logo} className="App-logo" alt="logo" /></Navbar.Brand>
+        <NavLink to='/' className="navbar-brand"><img src={logo} className="App-logo" alt="logo" /></NavLink>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="me-auto my-2 my-lg-0"
+            className="me-auto my-2 my-lg-0"to
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link className="categorias" href="#action1">TIENDA</Nav.Link>
-            <Nav.Link className="categorias" href="#action2">PLANTILLA</Nav.Link>
-            <Nav.Link className="categorias" href="#action2">FOTOS</Nav.Link>
-            <Nav.Link className="categorias" href="#"><CartWidget /></Nav.Link>
+            <NavLink className="categorias nav-link" to='/'>INICIO</NavLink>
+            <NavDropdown title="TIENDA" id="basic-nav-dropdown">
+            <NavLink className="categorias nav-link" to='/category/jugador'>JUGADOR</NavLink>
+            <NavLink className="categorias nav-link" to='/category/portero'>PORTERO</NavLink>
+            </NavDropdown>
+            <NavLink className="categorias nav-link" to='/plantilla'>PLANTILLA</NavLink>
+            <NavLink className="categorias nav-link" to='/fotos'>FOTOS</NavLink>
+            <NavLink className="categorias nav-link" to='/cart'><CartWidget /></NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>

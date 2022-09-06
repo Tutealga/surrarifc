@@ -1,0 +1,22 @@
+.cardProductDetail{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2,1fr); 
+}
+
+.pPriceDetail{
+    color:#fff201;
+    font-weight: 700 !important;
+font-size: 2rem !important;
+}
+
+.pDescriptionDetail{
+    color:#ccc;
+    font-weight: 700 !important;
+font-size: 1rem !important;
+}
+
+.pTitleDetail{
+    font-weight: 700 !important;
+    font-size: 3rem !important;
+}
