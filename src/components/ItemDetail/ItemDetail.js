@@ -11,9 +11,9 @@ const ItemDetail = ({info}) => {
       <div className="cardProductDetail">
 <img src={info.pictureUrl}></img>
 <div>
-<h1 className="pTitleDetail">{info.title}</h1>
-<p className="pPriceDetail">${info.price}</p>
-<p className="pDescriptionDetail">{info.description}</p>
+<h1 className="productTitleDetail">{info.title}</h1>
+<p className="productPriceDetail">${info.price}</p>
+<p className="productDescriptionDetail">{info.description}</p>
 <ItemCount initial={info.initial} stock={info.stock} onAdd={onAdd}/>
       </div>
       </div>

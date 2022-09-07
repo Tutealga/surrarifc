@@ -4,19 +4,19 @@
     grid-template-columns: repeat(2,1fr); 
 }
 
-.pPriceDetail{
+.productPriceDetail{
     color:#fff201;
     font-weight: 700 !important;
 font-size: 2rem !important;
 }
 
-.pDescriptionDetail{
+.productDescriptionDetail{
     color:#ccc;
     font-weight: 700 !important;
 font-size: 1rem !important;
 }
 
-.pTitleDetail{
+.productTitleDetail{
     font-weight: 700 !important;
     font-size: 3rem !important;
 }

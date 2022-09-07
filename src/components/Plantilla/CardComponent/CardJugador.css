@@ -21,13 +21,13 @@
     font-size: 3.75rem;
 }
 
-.pPosicion{
+.jugadorPosicion{
     color:#fff201;
     font-weight: 700 !important;
 font-size: .75rem !important;
 }
 
-.pNombre{
+.jugadorNombre{
     font-weight: 700 !important;
     font-size: 1.75rem !important;
 }

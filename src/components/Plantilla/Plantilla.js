@@ -1,17 +1,14 @@
 import {Container} from 'react-bootstrap';
-import Delantero from './Delantero/delantero';
 import './Plantilla.css'
-import Mediocampista from './Mediocampista/mediocampista';
-import Portero from './Portero/portero';
-import Defensa from './Defensa/defensa';
+import PlayerListContainer from './PlayersListContainer/PlayerListContainer';
 
-const Plantilla = ({}) => {
+const Plantilla = () => {
   return (
     <Container>
-        <Portero title={'Porteros'} />
-        <Defensa title={'Defensas'}/>
-        <Mediocampista title={'Centrocampistas'}/>
-        <Delantero title={'Delanteros'}/>
+        <PlayerListContainer title={'Porteros'} rol={"portero"}/>
+        <PlayerListContainer title={'Defensas'} rol={"defensa"}/>
+        <PlayerListContainer title={'Centrocampistas'} rol={"mediocampista"}/>
+        <PlayerListContainer title={'Delanteros'} rol={"delantero"}/>
     </Container>
   );
 }

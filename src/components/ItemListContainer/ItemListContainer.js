@@ -1,8 +1,8 @@
 import {Container} from 'react-bootstrap';
 import './ItemListContainer.css'
 import ItemList from '../ItemList/ItemList'
-import background1 from '../CardComponent/card-season23.png'
-import background2 from '../CardComponent/card-season22.png'
+import background1 from '../Plantilla/CardComponent/card-season23.png'
+import background2 from '../Plantilla/CardComponent/card-season22.png'
 import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom';
 
@@ -32,7 +32,7 @@ if (id){
 
   return (
     <>
-    <h1 className="tituloprincipal">{title}</h1>
+    <h1 className="titlePrincipal">{title}</h1>
     <Container className="divProduct">
         <ItemList info={informacion}/>
     </Container>

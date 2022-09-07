@@ -18,11 +18,10 @@ const NavBar = () => {
           >
             <NavLink className="categorias nav-link" to='/'>INICIO</NavLink>
             <NavDropdown title="TIENDA" id="basic-nav-dropdown">
-            <NavLink className="categorias nav-link" to='/category/jugador'>JUGADOR</NavLink>
-            <NavLink className="categorias nav-link" to='/category/portero'>PORTERO</NavLink>
+            <NavLink className="categorias nav-link" to='/categoria/jugador'>JUGADOR</NavLink>
+            <NavLink className="categorias nav-link" to='/categoria/portero'>PORTERO</NavLink>
             </NavDropdown>
             <NavLink className="categorias nav-link" to='/plantilla'>PLANTILLA</NavLink>
-            <NavLink className="categorias nav-link" to='/fotos'>FOTOS</NavLink>
             <NavLink className="categorias nav-link" to='/cart'><CartWidget /></NavLink>
           </Nav>
         </Navbar.Collapse>
