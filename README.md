@@ -9,7 +9,7 @@ Este proyecto es un e-commerce de mi equipo de futbol con amigos, donde podemos:
 
 ## Acceder y probar el proyecto online
 Para acceder al proyecto y probarlo de manera online, acceder al siguiente enlace:
-https://tutealga.github.io/elorigen/
+https://tutealga.github.io/surrarifc/
 
 ## Librerías utilizadas
 
