@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/surrarifc/static/css/main.a0eace63.css",
-    "main.js": "/surrarifc/static/js/main.6081dbce.js",
+    "main.css": "/surrarifc/static/css/main.a63b4607.css",
+    "main.js": "/surrarifc/static/js/main.8f6fc262.js",
     "static/media/asd.jpg": "/surrarifc/static/media/asd.f5d1ab88619ba219b684.jpg",
     "static/media/logo.png": "/surrarifc/static/media/logo.1909c9cc3918f23b69ef.png",
+    "static/media/card-season24.png": "/surrarifc/static/media/card-season24.70b30f703515b0940301.png",
     "static/media/card-season23.png": "/surrarifc/static/media/card-season23.4ee9bdfef31b768e90f3.png",
     "static/media/card-season22.png": "/surrarifc/static/media/card-season22.b829965208a4f5e88deb.png",
+    "static/media/pantalon3.png": "/surrarifc/static/media/pantalon3.89556275dfb79782696f.png",
+    "static/media/pantalon2.png": "/surrarifc/static/media/pantalon2.87617536118b9aef6049.png",
+    "static/media/pantalon.png": "/surrarifc/static/media/pantalon.0a527c45be7b9414c60e.png",
     "index.html": "/surrarifc/index.html",
-    "main.a0eace63.css.map": "/surrarifc/static/css/main.a0eace63.css.map",
-    "main.6081dbce.js.map": "/surrarifc/static/js/main.6081dbce.js.map"
+    "main.a63b4607.css.map": "/surrarifc/static/css/main.a63b4607.css.map",
+    "main.8f6fc262.js.map": "/surrarifc/static/js/main.8f6fc262.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0eace63.css",
-    "static/js/main.6081dbce.js"
+    "static/css/main.a63b4607.css",
+    "static/js/main.8f6fc262.js"
   ]
 }
