@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/surrarifc/static/css/main.c5c8b757.css",
-    "main.js": "/surrarifc/static/js/main.525757f7.js",
+    "main.css": "/surrarifc/static/css/main.a0eace63.css",
+    "main.js": "/surrarifc/static/js/main.6081dbce.js",
+    "static/media/asd.jpg": "/surrarifc/static/media/asd.f5d1ab88619ba219b684.jpg",
     "static/media/logo.png": "/surrarifc/static/media/logo.1909c9cc3918f23b69ef.png",
     "static/media/card-season23.png": "/surrarifc/static/media/card-season23.4ee9bdfef31b768e90f3.png",
     "static/media/card-season22.png": "/surrarifc/static/media/card-season22.b829965208a4f5e88deb.png",
     "index.html": "/surrarifc/index.html",
-    "main.c5c8b757.css.map": "/surrarifc/static/css/main.c5c8b757.css.map",
-    "main.525757f7.js.map": "/surrarifc/static/js/main.525757f7.js.map"
+    "main.a0eace63.css.map": "/surrarifc/static/css/main.a0eace63.css.map",
+    "main.6081dbce.js.map": "/surrarifc/static/js/main.6081dbce.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5c8b757.css",
-    "static/js/main.525757f7.js"
+    "static/css/main.a0eace63.css",
+    "static/js/main.6081dbce.js"
   ]
 }
