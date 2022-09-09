@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom';
 const Footer = () => {
   return (
      <Container fluid className="footer">
+      <Container fluid className="footerDiv">
       <div>
 <h6>SURRARI F.C</h6>
 <ul className="ulLinks">
@@ -19,14 +20,18 @@ const Footer = () => {
   <li><Link to={'/plantilla'}>Plantilla</Link></li>
 </ul>
       </div>
-      <div>
-<h6>ÚNETENOS</h6>
+      <div className="divRedes">
+<h6>SÍGUENOS</h6>
 <ul className='ulRedes'>
 <li><a target="__blank" href="https://www.instagram.com/surrarifc/"><i class="fa-brands fa-instagram"></i></a></li>
   <li><a target="__blank" href="https://www.tiktok.com/@surrarifc"><i class="fa-brands fa-tiktok"></i></a></li>
 </ul>
 <Link to={"/"} className="navbar-brand"><img src={logo} className="App-logo" alt="logo" /></Link>
-      </div>     
+      </div>   
+      </Container>
+      <Container fluid className="credits text-center mt-4">
+      <p>Surrari F.C © 2022. Todos los derechos reservados.</p>
+      </Container>
     </Container>
   );
 }

@@ -13,12 +13,12 @@ const App = () => {
    <BrowserRouter>
    <NavBar />
    <Routes>
-   <Route path='/' element={<ItemListContainer title="Tienda oficial de Surrari F.C"/>}/>
+   <Route path='/' element={<ItemListContainer clase="d-block d-flex mb-5" title="Tienda oficial de Surrari F.C"/>}/>
    <Route path='/categoria/:id' element={<ItemListContainer />}/>
    <Route path='/detalle/:id' element={<ItemDetailContainer />}/>
    <Route path='/plantilla' element={<Plantilla />}/> 
    <Route path='*' element={<Navigate to={"/"}/>}/>
-   </Routes>
+   </Routes> 
   <Footer />
    </BrowserRouter> 
    </>

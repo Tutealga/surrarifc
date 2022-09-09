@@ -1,14 +1,14 @@
-*{
+.divRedes ul{
     list-style-type: none;
 }
 
 .footer{
     max-width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     background-color: #9b0006;
     color:#fff;  
-    padding: 3rem; 
+    padding: 3rem 3rem 0 3rem; 
     margin-top: 50px;
 }
 
@@ -36,4 +36,19 @@ padding-left: 0px;
 .aLogo{
     display: flex;
     align-items: center;
+}
+
+.footerDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.credits{
+    border-top:1px solid #fff201;
+    padding: 1.5rem;
+    max-width: 100%;
+}
+
+li::marker{
+    color: #fff201;
 }
