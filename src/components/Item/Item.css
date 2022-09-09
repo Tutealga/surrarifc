@@ -13,6 +13,13 @@
     margin:1rem;
 }
 
+.buttonComprar{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-decoration: none;
+}
+
 .text-color-blanco{
     color:#fff;
 }

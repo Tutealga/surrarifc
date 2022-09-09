@@ -8,7 +8,7 @@ const Item = ({info}) => {
       <Card.Body>
         <Card.Title className="productTitle text-color-blanco">{info.title}</Card.Title>
         <Card.Text className="productPrice">${info.price}</Card.Text>
-        <Link className="text-center" to={`/detalle/${info.id}`}><Button variant="light">Comprar</Button></Link>
+        <Link className="text-center buttonComprar" to={`/detalle/${info.id}`}><Button variant="light">Comprar</Button></Link>
       </Card.Body>
     </Card>
   );
