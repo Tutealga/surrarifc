@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 import Plantilla from './components/Plantilla/Plantilla';
+import ResultadosListContainer from './components/Resultados/ResultadosListContainer';
 
 const App = () => {
   return(
@@ -17,6 +18,7 @@ const App = () => {
    <Route path='/categoria/:id' element={<ItemListContainer />}/>
    <Route path='/detalle/:id' element={<ItemDetailContainer />}/>
    <Route path='/plantilla' element={<Plantilla />}/> 
+   <Route path='/resultados' element={<ResultadosListContainer />}/>
    <Route path='*' element={<Navigate to={"/"}/>}/>
    </Routes> 
   <Footer />

@@ -22,6 +22,7 @@ const NavBar = () => {
             <NavLink className="categorias nav-link" to='/categoria/pantalon'>PANTALONES</NavLink>
             </NavDropdown>
             <NavLink className="categorias nav-link" to='/plantilla'>PLANTILLA</NavLink>
+            <NavLink className="categorias nav-link" to='/resultados'>RESULTADOS</NavLink>
             <NavLink className="categorias nav-link" to='/cart'><CartWidget /></NavLink>
           </Nav>
         </Navbar.Collapse>

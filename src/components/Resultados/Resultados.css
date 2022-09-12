@@ -1,0 +1,65 @@
+.resultados{
+    background-color: #ebebeb;
+    padding: 1rem;
+    display: grid;
+    justify-content: center;
+    margin: 1.5rem auto;
+}
+
+.resultadoDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+}
+
+.fechaPartido{
+    text-align: center;
+    padding: .5rem;
+    color: #151e2d;
+    font-weight: 700;
+    font-size: .75rem;
+}
+
+.equipo1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.equipo2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.escudo{
+    width: 4rem;
+    height: 4rem;
+}
+
+.golesAFavor{
+ padding: .65rem .9rem;
+ background-color: #1a2434;
+ border-radius: .25rem;
+ color: #fff;
+ font-weight: bold;
+ font-size:1.25rem;
+ margin: 0 .25rem;
+}
+
+.golesEnContra{
+    padding: .65rem .9rem;
+    background-color: #82878f;
+    border-radius: .25rem;
+    color: #fff;
+    font-weight: bold;
+    font-size:1.25rem;
+    margin: 0 .25rem;
+   }
+
+.nombreEquipo{
+    color: #151e2d;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin: 0 .5rem;
+}
