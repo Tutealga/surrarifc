@@ -11,6 +11,7 @@ const jugadores = [
   {id:3,rol:"defensa",number:4, name:"Mateo Fraga", position:"DEFENSA CENTRAL", img:(background)},
   {id:4,rol:"defensa",number:27, name:"Iñaki Mena", position:"DEFENSA", img:(background)},
   {id:5,rol:"defensa",number:17, name:"Santiago Fraga", position:"DEFENSA", img:(background)},
+  {id:5,rol:"defensa",number:14, name:"Federico Balduino", position:"DEFENSA CENTRAL", img:(background)},
   {id:6,rol:"mediocampista",number:19, name:"Ignacio Mieres", position:"MEDIAPUNTA", img:(background)},
   {id:7,rol:"mediocampista",number:12, name:"Nicolas Ortiz", position:"CENTROCAMPISTA", img:(background)},
   {id:8,rol:"mediocampista",number:5, name:"Joaquin Mieres", position:"MEDIOCENTRO DEFENSIVO", img:(background)},
