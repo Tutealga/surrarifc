@@ -23,8 +23,8 @@ const Footer = () => {
       <div className="divRedes">
 <h6>SÍGUENOS</h6>
 <ul className='ulRedes'>
-<li><a target="__blank" href="https://www.instagram.com/surrarifc/"><i class="fa-brands fa-instagram"></i></a></li>
-  <li><a target="__blank" href="https://www.tiktok.com/@surrarifc"><i class="fa-brands fa-tiktok"></i></a></li>
+<li><a target="__blank" href="https://www.instagram.com/surrarifc/"><i className="fa-brands fa-instagram"></i></a></li>
+  <li><a target="__blank" href="https://www.tiktok.com/@surrarifc"><i className="fa-brands fa-tiktok"></i></a></li>
 </ul>
 <Link to={"/"} className="navbar-brand"><img src={logo} className="App-logo" alt="logo" /></Link>
       </div>   

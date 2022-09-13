@@ -1,8 +1,10 @@
 import {Card,Button} from 'react-bootstrap';
 import './Item.css'
 import {Link} from 'react-router-dom'
+import { CartContext } from '../../context/CartContext';
 
 const Item = ({info}) => {
+
   return (
     <Card id="cardProducto" style={{ backgroundImage: `url(${info.pictureUrl})`}}>
       <Card.Body>

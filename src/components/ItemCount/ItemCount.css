@@ -1,8 +1,10 @@
-#btnAgregarCarrito {
+#btnAgregarCarrito, #finalizarCompra {
     border-color: #9b0006;
     background-color: #9b0006;
     color: #fff;
     padding: 1rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
 }
 
 #btnIncrementar, #btnDecrementar {

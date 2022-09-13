@@ -1,6 +1,9 @@
+import React from 'react';
+
 const CartWidget = () => {
+
   return (
-    <i class="fa-solid fa-cart-shopping"></i>
+    <i className="fa-solid fa-cart-shopping"></i>
   );
 }
 
