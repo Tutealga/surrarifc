@@ -31,7 +31,6 @@ if (carrito.length === 0){
       Total: ${totalPrice()}
     </p>
     </Container>
-    
     </Container>
     
   );
