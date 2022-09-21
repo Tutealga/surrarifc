@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/surrarifc/static/css/main.59a9659c.css",
-    "main.js": "/surrarifc/static/js/main.a67fbd78.js",
+    "main.css": "/surrarifc/static/css/main.7ce145fc.css",
+    "main.js": "/surrarifc/static/js/main.822ef1fd.js",
     "static/media/laresaka.png": "/surrarifc/static/media/laresaka.9a985dfcc1d344836c80.png",
     "static/media/asd.jpg": "/surrarifc/static/media/asd.f5d1ab88619ba219b684.jpg",
     "static/media/realplax.png": "/surrarifc/static/media/realplax.ada19787f5f6ba194935.png",
@@ -16,11 +16,11 @@
     "static/media/pantalon2.png": "/surrarifc/static/media/pantalon2.87617536118b9aef6049.png",
     "static/media/pantalon.png": "/surrarifc/static/media/pantalon.0a527c45be7b9414c60e.png",
     "index.html": "/surrarifc/index.html",
-    "main.59a9659c.css.map": "/surrarifc/static/css/main.59a9659c.css.map",
-    "main.a67fbd78.js.map": "/surrarifc/static/js/main.a67fbd78.js.map"
+    "main.7ce145fc.css.map": "/surrarifc/static/css/main.7ce145fc.css.map",
+    "main.822ef1fd.js.map": "/surrarifc/static/js/main.822ef1fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.59a9659c.css",
-    "static/js/main.a67fbd78.js"
+    "static/css/main.7ce145fc.css",
+    "static/js/main.822ef1fd.js"
   ]
 }
