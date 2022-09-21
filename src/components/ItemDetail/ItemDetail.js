@@ -1,7 +1,7 @@
 import './ItemDetail.css'
 import ItemCount from '../ItemCount/ItemCount'
 import React, { useState} from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { useCartContext } from '../../context/CartContext';
 
 const ItemDetail = ({info}) => {
@@ -23,7 +23,7 @@ const ItemDetail = ({info}) => {
            <p className="productDescriptionDetail">{info.description}</p>
            {
            IrACarrito
-           ? <Link id="finalizarCompra" className="pt-1 btn btn-primary" to='/cart'>Finalizar compra</Link>
+           ? <Link id="finalizarCompra" className="pt-1 btn btn-primary" to='/cart'>Terminar mi compra</Link>
            :<ItemCount initial={info.initial} stock={info.stock} onAdd={onAdd}/>
            }
          </div>

@@ -1,7 +1,7 @@
 import './Footer.css'
-import logo from './logo.png';
-import { Navbar,Container } from 'react-bootstrap';
-import {Link} from 'react-router-dom';
+import logo from '../../assets/logo.png';
+import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -13,8 +13,8 @@ const Footer = () => {
   <li><Link to={"/"}>Inicio</Link></li>
   <li><Link to={"/"}>Tienda</Link>
     <ul>
-    <li><Link to={"/categoria/jugador"}>Jugador</Link></li>
-    <li><Link to={"/categoria/portero"}>Portero</Link></li>
+    <li><Link to={"/categoria/camiseta"}>Camisetas</Link></li>
+    <li><Link to={"/categoria/pantalon"}>Pantalones</Link></li>
     </ul>
     </li>
   <li><Link to={'/plantilla'}>Plantilla</Link></li>

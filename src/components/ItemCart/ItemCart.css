@@ -1,0 +1,37 @@
+.itemCart{
+    display: flex;
+    max-width: 20rem;
+    margin:1rem auto;
+    background-color: #9b0006;
+    color:white;
+    padding: 1rem;
+    border-radius: .375rem;
+}
+
+.price{
+    color: #fff201;
+    font-weight: 700 !important;
+}
+
+.title{
+    font-weight: 700 !important;
+}
+
+.cantidad{
+    font-weight: 700 !important;
+}
+
+.itemCart img{
+    width: 7rem;
+    height: auto;
+    margin-right: 1rem;
+}
+
+#eliminar{
+    border-color: #9b0006;
+    background-color: #9b0006;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+}

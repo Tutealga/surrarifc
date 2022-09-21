@@ -1,7 +1,6 @@
-import {Card,Button} from 'react-bootstrap';
+import { Card, Button} from 'react-bootstrap';
 import './Item.css'
-import {Link} from 'react-router-dom'
-import { CartContext } from '../../context/CartContext';
+import { Link } from 'react-router-dom'
 
 const Item = ({info}) => {
 

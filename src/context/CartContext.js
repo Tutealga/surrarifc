@@ -19,6 +19,12 @@ const addItem = (item, quantity) =>{
     }
 }
 
+const totalPrice = () =>{
+    return carrito.reduce((prev, act) => prev + act.quantity * act.price, 0);
+}
+
+const totalProducts = () => carrito.reduce((prev, act) => prev + act.quantity,0);
+
 const clear = () => setCarrito([]);
 
 const isInCart = (id) => carrito.find(producto => producto.id === id) ? true : false;
@@ -30,7 +36,10 @@ const removeItem = (id) => setCarrito(carrito.filter(producto => producto.id !==
     clear, 
     isInCart, 
     removeItem, 
-    addItem
+    addItem,
+    totalPrice,
+    totalProducts,
+    carrito
     }}>
   {children}
 </CartContext.Provider>

@@ -1,7 +1,7 @@
 import surrari from '../../assets/escudos/surrari.png'
 import './Resultados.css'
 
-const Resultados = ({info}) => {
+const Resultado = ({info}) => {
   return (
       <div className="resultados">
         <span className="fechaPartido"><time>{info.fecha}</time></span>
@@ -21,4 +21,4 @@ const Resultados = ({info}) => {
   );
 }
 
-export default Resultados;
+export default Resultado;

@@ -1,15 +1,15 @@
 import {Container} from 'react-bootstrap';
 import './ItemListContainer.css'
 import ItemList from '../ItemList/ItemList'
-import CamisetaRoja from '../Plantilla/CardComponent/card-season23.png'
-import CamisetaNegra from '../Plantilla/CardComponent/card-season22.png'
-import PantalonNegro from '../Plantilla/CardComponent/pantalon.png'
-import PantalonBlanco from '../Plantilla/CardComponent/pantalon2.png'
-import CamisetaAmarilla from '../Plantilla/CardComponent/card-season24.png'
-import PantalonRojo from '../Plantilla/CardComponent/pantalon3.png'
+import CamisetaRoja from '../../assets/productos/card-season23.png'
+import CamisetaNegra from '../../assets/productos/card-season22.png'
+import PantalonNegro from '../../assets/productos/pantalon.png'
+import PantalonBlanco from '../../assets/productos/pantalon2.png'
+import CamisetaAmarilla from '../../assets/productos/card-season24.png'
+import PantalonRojo from '../../assets/productos/pantalon3.png'
 import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom';
-import banner from '../asd.jpg'
+import banner from '../../assets/asd.jpg'
 
 const productos = [
   {id:1, title:"Camiseta", category: 'camiseta', price:7000, pictureUrl:CamisetaRoja},

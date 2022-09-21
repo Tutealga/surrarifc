@@ -10,6 +10,7 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import Plantilla from './components/Plantilla/Plantilla';
 import ResultadosListContainer from './components/Resultados/ResultadosListContainer';
 import CartProvider from './context/CartContext';
+import Cart from './components/Cart/Cart'
 
 const App = () => {
   return(
@@ -23,7 +24,7 @@ const App = () => {
       <Route path='/detalle/:id' element={<ItemDetailContainer />}/>
       <Route path='/plantilla' element={<Plantilla />}/> 
       <Route path='/resultados' element={<ResultadosListContainer />}/>
-      <Route path='/cart' element={<Navigate to={'/cart'} />}/>
+      <Route path='/cart' element={<Cart />}/>
       <Route path='*' element={<Navigate to={"/"}/>}/>
      </Routes> 
      </CartProvider>
