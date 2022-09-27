@@ -13,8 +13,8 @@ const Footer = () => {
   <li><Link to={"/"}>Inicio</Link></li>
   <li><Link to={"/"}>Tienda</Link>
     <ul>
-    <li><Link to={"/categoria/camiseta"}>Camisetas</Link></li>
-    <li><Link to={"/categoria/pantalon"}>Pantalones</Link></li>
+    <li><Link to={"/category/camiseta"}>Camisetas</Link></li>
+    <li><Link to={"/category/pantalon"}>Pantalones</Link></li>
     </ul>
     </li>
   <li><Link to={'/plantilla'}>Plantilla</Link></li>

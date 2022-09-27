@@ -2,7 +2,7 @@ import CardJugador from '../CardComponent/CardJugador'
 
 const PlayerList = ({info}) =>{
 return (
-    info.map(jugadores => <CardJugador key={jugadores.id} info={jugadores}/>)    
+    info.map(player => <CardJugador key={player.id} info={player}/>)    
  );
 }
 

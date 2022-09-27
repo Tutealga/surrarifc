@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom'
 import { useCartContext } from '../../context/CartContext';
 
 const ItemDetail = ({info}) => {
-  const [IrACarrito, setIrACarrito] = useState(false);
+  const [goCart, setGoCart] = useState(false);
 
   const {addItem} = useCartContext();
 
-  const onAdd = (cantidad) => {
-    (info.stock > 0) && setIrACarrito(true);
-    addItem(info, cantidad)
+  const onAdd = (quantity) => {
+    (info.stock > 0) && setGoCart(true);
+    addItem(info, quantity)
   }
 
     return(
@@ -22,9 +22,9 @@ const ItemDetail = ({info}) => {
            <p className="productPriceDetail">${info.price}</p>
            <p className="productDescriptionDetail">{info.description}</p>
            {
-           IrACarrito
+           goCart
            ? <Link id="finalizarCompra" className="pt-1 btn btn-primary" to='/cart'>Terminar mi compra</Link>
-           :<ItemCount initial={info.initial} stock={info.stock} onAdd={onAdd}/>
+           :<ItemCount initial={1} stock={info.stock} onAdd={onAdd}/>
            }
          </div>
       </div>

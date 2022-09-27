@@ -5,31 +5,31 @@ export const useCartContext = () => useContext(CartContext);
 
 const CartProvider = ({ children }) =>{
 
-const [carrito, setCarrito] = useState([]);
+const [cart, setCart] = useState([]);
 
-console.log('Carrito: ', carrito);
+console.log('Carrito: ', cart);
 
 const addItem = (item, quantity) =>{
     if(isInCart(item.id)){
-        setCarrito(carrito.map(producto => {
-            return producto.id === item.id ? { ...producto, quantity: producto.quantity + quantity} : producto
+        setCart(cart.map(product => {
+            return product.id === item.id ? { ...product, quantity: product.quantity + quantity} : product
         }));
     } else{
-        setCarrito([...carrito, {...item, quantity}]);
+        setCart([...cart, {...item, quantity}]);
     }
 }
 
 const totalPrice = () =>{
-    return carrito.reduce((prev, act) => prev + act.quantity * act.price, 0);
+    return cart.reduce((prev, act) => prev + act.quantity * act.price, 0);
 }
 
-const totalProducts = () => carrito.reduce((prev, act) => prev + act.quantity,0);
+const totalProducts = () => cart.reduce((prev, act) => prev + act.quantity,0);
 
-const clear = () => setCarrito([]);
+const clear = () => setCart([]);
 
-const isInCart = (id) => carrito.find(producto => producto.id === id) ? true : false;
+const isInCart = (id) => cart.find(product => product.id === id) ? true : false;
 
-const removeItem = (id) => setCarrito(carrito.filter(producto => producto.id !== id));
+const removeItem = (id) => setCart(cart.filter(product => product.id !== id));
   
     return (
 <CartContext.Provider value={{
@@ -39,7 +39,7 @@ const removeItem = (id) => setCarrito(carrito.filter(producto => producto.id !==
     addItem,
     totalPrice,
     totalProducts,
-    carrito
+    cart
     }}>
   {children}
 </CartContext.Provider>

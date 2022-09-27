@@ -2,7 +2,7 @@
     display: grid;
 }
 
-#cardProducto{
+#cardProduct{
     background-color: #9b0006; 
     background-position: center; 
     background-size: cover; 
@@ -13,14 +13,14 @@
     margin:1rem;
 }
 
-.buttonComprar{
+.buttonBuy{
     display: flex;
     justify-content: center;
     align-items: end;
     text-decoration: none;
 }
 
-.text-color-blanco{
+.text-color-white{
     color:#fff;
 }
 

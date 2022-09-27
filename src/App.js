@@ -20,8 +20,8 @@ const App = () => {
      <NavBar />
      <Routes>
       <Route path='/' element={<ItemListContainer clase="d-block d-flex mb-5" title="Tienda oficial de Surrari F.C"/>}/>
-      <Route path='/categoria/:id' element={<ItemListContainer />}/>
-      <Route path='/detalle/:id' element={<ItemDetailContainer />}/>
+      <Route path='/category/:id' element={<ItemListContainer />}/>
+      <Route path='/detail/:id' element={<ItemDetailContainer />}/>
       <Route path='/plantilla' element={<Plantilla />}/> 
       <Route path='/resultados' element={<ResultadosListContainer />}/>
       <Route path='/cart' element={<Cart />}/>
