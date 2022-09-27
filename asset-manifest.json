@@ -1,26 +1,20 @@
 {
   "files": {
-    "main.css": "/surrarifc/static/css/main.7ce145fc.css",
-    "main.js": "/surrarifc/static/js/main.822ef1fd.js",
+    "main.css": "/surrarifc/static/css/main.261b0a0a.css",
+    "main.js": "/surrarifc/static/js/main.8ae92493.js",
     "static/media/laresaka.png": "/surrarifc/static/media/laresaka.9a985dfcc1d344836c80.png",
     "static/media/asd.jpg": "/surrarifc/static/media/asd.f5d1ab88619ba219b684.jpg",
     "static/media/realplax.png": "/surrarifc/static/media/realplax.ada19787f5f6ba194935.png",
     "static/media/logo.png": "/surrarifc/static/media/logo.1909c9cc3918f23b69ef.png",
     "static/media/surrari.png": "/surrarifc/static/media/surrari.1909c9cc3918f23b69ef.png",
-    "static/media/card-season24.png": "/surrarifc/static/media/card-season24.70b30f703515b0940301.png",
     "static/media/losrompe.png": "/surrarifc/static/media/losrompe.4e4c65a3b1d23388af94.png",
-    "static/media/card-season23.png": "/surrarifc/static/media/card-season23.4ee9bdfef31b768e90f3.png",
-    "static/media/card-season22.png": "/surrarifc/static/media/card-season22.b829965208a4f5e88deb.png",
-    "static/media/pantalon3.png": "/surrarifc/static/media/pantalon3.89556275dfb79782696f.png",
     "static/media/sinescudo.png": "/surrarifc/static/media/sinescudo.724d349180410b7e685d.png",
-    "static/media/pantalon2.png": "/surrarifc/static/media/pantalon2.87617536118b9aef6049.png",
-    "static/media/pantalon.png": "/surrarifc/static/media/pantalon.0a527c45be7b9414c60e.png",
     "index.html": "/surrarifc/index.html",
-    "main.7ce145fc.css.map": "/surrarifc/static/css/main.7ce145fc.css.map",
-    "main.822ef1fd.js.map": "/surrarifc/static/js/main.822ef1fd.js.map"
+    "main.261b0a0a.css.map": "/surrarifc/static/css/main.261b0a0a.css.map",
+    "main.8ae92493.js.map": "/surrarifc/static/js/main.8ae92493.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ce145fc.css",
-    "static/js/main.822ef1fd.js"
+    "static/css/main.261b0a0a.css",
+    "static/js/main.8ae92493.js"
   ]
 }
