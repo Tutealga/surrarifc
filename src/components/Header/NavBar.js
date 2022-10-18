@@ -20,6 +20,8 @@ const NavBar = () => {
             <NavDropdown title="TIENDA" id="basic-nav-dropdown">
             <NavLink className="categories nav-link" to='/category/camiseta'>CAMISETAS</NavLink>
             <NavLink className="categories nav-link" to='/category/pantalon'>PANTALONES</NavLink>
+            <NavLink className="categories nav-link" to='/category/jugador'>JUGADOR</NavLink>
+            <NavLink className="categories nav-link" to='/category/portero'>PORTERO</NavLink>
             </NavDropdown>
             <NavLink className="categories nav-link" to='/team'>PLANTILLA</NavLink>
             <NavLink className="categories nav-link" to='/results'>RESULTADOS</NavLink>

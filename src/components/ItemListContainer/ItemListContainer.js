@@ -14,7 +14,7 @@ useEffect(() => {
 const querydb = getFirestore();
 const queryCollection = collection(querydb, 'productos');
 if (id) {
-  const queryFilter = query(queryCollection, where('category', '==', id))
+  const queryFilter = query(queryCollection, where('category', 'array-contains', id))
   getDocs(queryFilter)
   .then(res => setProducts(res.docs.map(product => ({id: product.id, ...product.data() }))))
 } else{
