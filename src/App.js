@@ -21,7 +21,7 @@ const App = () => {
      <NavBar />
      <LastResultProvider>
      <Routes>
-      <Route path='/' element={<ItemListContainer clase="d-block d-flex mb-5" />}/>
+      <Route path='/' element={<ItemListContainer clase="fdc d-flex mb-5" />}/>
       <Route path='/category/:id' element={<ItemListContainer />}/>
       <Route path='/detail/:id' element={<ItemDetailContainer />}/>
       <Route path='/team' element={<Team />}/> 

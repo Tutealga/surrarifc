@@ -1,18 +1,14 @@
-import {Container} from 'react-bootstrap';
-import './ItemListContainer.css'
-import ItemList from '../ItemList/ItemList'
-import {useState, useEffect} from 'react'
+import { Container } from 'react-bootstrap';
+import './ItemListContainer.css';
+import ItemList from '../ItemList/ItemList';
+import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import banner from '../../assets/asd.jpg'
-import {getFirestore, collection, getDocs, query, where} from 'firebase/firestore';
-import { useLastResultContext } from '../Results/ResultContext';
-import Results from '../Results/Results'
+import { getFirestore, collection, getDocs, query, where } from 'firebase/firestore';
+import Banner from '../Banner/Banner';
 
 const ItemListContainer = ({clase}) => {
 const [products, setProducts] = useState([]);
 const {id} = useParams();
-
-const {lastResult} = useLastResultContext();
 
 useEffect(() => {
 const querydb = getFirestore();
@@ -29,17 +25,7 @@ if (id) {
 
   return (
     <>
-    <div className={clase} style={{ display:"none"}}>
-      <div className="banner">
-        <img src={banner}></img>
-      </div>
-      <div className="banner2">
-      <h1 className="titlePrincipal">Tienda oficial de Surrari F.C</h1>
-      <div className="banner3">
-      <Results results={lastResult} />
-      </div>
-      </div>
-    </div>
+    <Banner clase={clase}/>
     <Container id="divProduct" className="divProduct">
         <ItemList products={products}/>
     </Container>

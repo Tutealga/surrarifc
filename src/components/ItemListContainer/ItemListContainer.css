@@ -29,27 +29,7 @@
   font-weight: 900;
 }
 
-.banner{
-  width: 55%;
-  height: auto;
-}
 
-.banner2{
-  padding: 3rem;
-  width:45%;
-  display: grid;
-}
-
-.banner3{
-  display: grid;
-  align-items: end;
-}
-
-.banner img{
-max-width: 100%;
-height: auto;
-transform: scaleX(-1);
-}
 
 
 
