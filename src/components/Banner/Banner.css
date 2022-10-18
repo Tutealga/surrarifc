@@ -20,7 +20,7 @@
   transform: scaleX(-1);
   }
 
-  @media (max-width: 768px){
+  @media (max-width: 68rem){
     .banner{
         width: 100%;
       }
