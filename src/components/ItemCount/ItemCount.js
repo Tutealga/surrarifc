@@ -14,16 +14,16 @@ const ItemCount = ({ stock, initial, onAdd}) => {
     }
 
     return (
-        <div id="agregarCarrito" className="mt-3">
-            <InputGroup id="divAgregarCarrito" className="mb-3">
-                <Button id="btnDecrementar" className="pt-0" onClick={remove}>-</Button>
+        <div id="addCart" className="mt-3">
+            <InputGroup id="divAddCart" className="mb-3">
+                <Button id="btnDecrease" className="pt-0" onClick={remove}>-</Button>
                 <FormControl className="text-center" 
-                    id="cantidadAgregarCarrito"
+                    id="quantityAddCart"
                     value={counter}
                 />
-                <Button id="btnIncrementar" className="pt-0" onClick={add}>+</Button>
+                <Button id="btnIncrease" className="pt-0" onClick={add}>+</Button>
             </InputGroup>
-            <Button onClick={() => onAdd(counter)} id="btnAgregarCarrito" className="pt-1">
+            <Button onClick={() => onAdd(counter)} id="btnAddCart" className="pt-1">
                 Agregar al carrito
             </Button>
         </div>

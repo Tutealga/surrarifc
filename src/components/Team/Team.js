@@ -1,8 +1,8 @@
 import { Container } from 'react-bootstrap';
-import './Plantilla.css'
+import './Team.css'
 import PlayerListContainer from './PlayersListContainer/PlayerListContainer';
 
-const Plantilla = () => {
+const Team = () => {
   return (
     <Container>
         <PlayerListContainer title={'Porteros'} rol={"portero"}/>
@@ -13,4 +13,4 @@ const Plantilla = () => {
   );
 }
 
-export default Plantilla;
+export default Team;

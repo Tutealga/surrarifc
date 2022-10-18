@@ -1,4 +1,4 @@
-#btnAgregarCarrito, #finalizarCompra {
+#btnAddCart, #checkout {
     border-color: #9b0006;
     background-color: #9b0006;
     color: #fff;
@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 
-#btnIncrementar, #btnDecrementar {
+#btnIncrease, #btnDecrease {
     border-color: transparent;
     background-color: #fff;
     color: #9b0006;
@@ -15,18 +15,18 @@
     font-weight: 700;
 }
 
-#cantidadAgregarCarrito{
+#quantityAddCart{
     font-weight: 700;
     border: none;
 }
 
-#divAgregarCarrito{
+#divAddCart{
     border: 1px solid #ccc;
     border-radius: .5rem;
-    width: 100%;
+    width: 50%;
 }
 
-#agregarCarrito{
+#addCart{
     background-color: transparent;
     margin: 0 auto;
     max-width: 100%;

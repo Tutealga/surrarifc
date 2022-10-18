@@ -2,14 +2,19 @@
     display: grid;
 }
 
+.alignEnd{
+    display: grid;
+    grid-template-rows: 2fr 4fr 1fr;
+}
+
 #cardProduct{
     background-color: #9b0006; 
     background-position: center; 
     background-size: cover; 
     background-repeat: no-repeat; 
-    height: 450px; 
+    height: 330px; 
     max-width: 100%;
-    background-position-y: 165px;
+    background-position-y: 50px;
     margin:1rem;
 }
 
@@ -20,14 +25,18 @@
     text-decoration: none;
 }
 
-.text-color-white{
+.textColorWhite{
     color:#fff;
 }
 
 .productPrice{
     color:#fff201;
     font-weight: 700 !important;
-font-size: 1.5rem !important;
+    font-size: 1.5rem !important;
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 0;
 }
 
 .productTitle{

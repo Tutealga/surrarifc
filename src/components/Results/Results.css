@@ -1,4 +1,4 @@
-.resultados{
+.results{
     background-color: #ebebeb;
     padding: 1rem;
     display: grid;
@@ -6,12 +6,12 @@
     margin: 1.5rem auto;
 }
 
-.resultadoDiv{
+.resultDiv{
     display: grid;
     grid-template-columns: repeat(2,1fr); 
 }
 
-.fechaPartido{
+.matchDate{
     text-align: center;
     padding: .5rem;
     color: #151e2d;
@@ -19,25 +19,25 @@
     font-size: .75rem;
 }
 
-.equipo1{
+.team1{
     display: flex;
     justify-content: end;
     align-items: center;
 }
 
-.equipo2{
+.team2{
     display: flex;
     justify-content: start;
     align-items: center;
 }
 
 
-.escudo{
+.shield{
     width: 4rem;
     height: 4rem;
 }
 
-.golesAFavor{
+.goals{
  padding: .65rem .9rem;
  background-color: #1a2434;
  border-radius: .25rem;
@@ -47,7 +47,7 @@
  margin: 0 .25rem;
 }
 
-.golesEnContra{
+.goalsAgainst{
     padding: .65rem .9rem;
     background-color: #82878f;
     border-radius: .25rem;
@@ -57,9 +57,31 @@
     margin: 0 .25rem;
    }
 
-.nombreEquipo{
+.teamName{
     color: #151e2d;
     font-weight: 700;
     font-size: 1.25rem;
     margin: 0 .5rem;
+}
+
+@media (max-width:768px){
+    .teamo1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .team2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .resultDiv{
+        display: grid;
+        grid-template-rows: repeat(2,1fr); 
+        grid-template-columns: none;
+        gap: 3px;
+    }
 }

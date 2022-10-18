@@ -17,7 +17,8 @@ const Footer = () => {
     <li><Link to={"/category/pantalon"}>Pantalones</Link></li>
     </ul>
     </li>
-  <li><Link to={'/plantilla'}>Plantilla</Link></li>
+  <li><Link to={'/team'}>Plantilla</Link></li>
+  <li><Link to={'/results'}>Resultados</Link></li>
 </ul>
       </div>
       <div className="divRedes">

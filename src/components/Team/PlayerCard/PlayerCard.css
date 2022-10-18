@@ -12,24 +12,24 @@
     margin:1rem;
 }
 
-.text-color-blanco{
+.textColorWhite{
     color:#fff;
 }
 
-.numero{
+.number{
     margin-bottom: auto;
     font-size: 3.75rem;
 }
 
-.jugadorPosicion{
+.playerPosition{
     color:#fff201;
     font-weight: 700 !important;
-font-size: .75rem !important;
-display: flex;
-align-items: end;
+    font-size: .75rem !important;
+    display: flex;
+    align-items: end;
 }
 
-.jugadorNombre{
+.playerName{
     font-weight: 700 !important;
     font-size: 1.75rem !important;
 }

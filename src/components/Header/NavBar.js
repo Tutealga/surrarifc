@@ -1,8 +1,8 @@
-import {Container,Nav,Navbar,NavDropdown} from 'react-bootstrap';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import CartWidget from '../CartWidget/CartWidget';
 import logo from '../../assets/logo.png';
 import './NavBar.css';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
   return (
@@ -16,14 +16,14 @@ const NavBar = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <NavLink className="categorias nav-link" to='/'>INICIO</NavLink>
+            <NavLink className="categories nav-link" to='/'>INICIO</NavLink>
             <NavDropdown title="TIENDA" id="basic-nav-dropdown">
-            <NavLink className="categorias nav-link" to='/category/camiseta'>CAMISETAS</NavLink>
-            <NavLink className="categorias nav-link" to='/category/pantalon'>PANTALONES</NavLink>
+            <NavLink className="categories nav-link" to='/category/camiseta'>CAMISETAS</NavLink>
+            <NavLink className="categories nav-link" to='/category/pantalon'>PANTALONES</NavLink>
             </NavDropdown>
-            <NavLink className="categorias nav-link" to='/plantilla'>PLANTILLA</NavLink>
-            <NavLink className="categorias nav-link" to='/resultados'>RESULTADOS</NavLink>
-            <NavLink className="categorias nav-link" to='/cart'><CartWidget /></NavLink>
+            <NavLink className="categories nav-link" to='/team'>PLANTILLA</NavLink>
+            <NavLink className="categories nav-link" to='/results'>RESULTADOS</NavLink>
+            <NavLink className="categories nav-link" to='/cart'><CartWidget /></NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
