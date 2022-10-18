@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/surrarifc/static/css/main.141d5c65.css",
+    "main.css": "/surrarifc/static/css/main.bee6958b.css",
     "main.js": "/surrarifc/static/js/main.acaf2dcd.js",
     "static/media/laresaka.png": "/surrarifc/static/media/laresaka.9a985dfcc1d344836c80.png",
     "static/media/asd.jpg": "/surrarifc/static/media/asd.f5d1ab88619ba219b684.jpg",
@@ -10,11 +10,11 @@
     "static/media/losrompe.png": "/surrarifc/static/media/losrompe.4e4c65a3b1d23388af94.png",
     "static/media/sinescudo.png": "/surrarifc/static/media/sinescudo.724d349180410b7e685d.png",
     "index.html": "/surrarifc/index.html",
-    "main.141d5c65.css.map": "/surrarifc/static/css/main.141d5c65.css.map",
+    "main.bee6958b.css.map": "/surrarifc/static/css/main.bee6958b.css.map",
     "main.acaf2dcd.js.map": "/surrarifc/static/js/main.acaf2dcd.js.map"
   },
   "entrypoints": [
-    "static/css/main.141d5c65.css",
+    "static/css/main.bee6958b.css",
     "static/js/main.acaf2dcd.js"
   ]
 }
