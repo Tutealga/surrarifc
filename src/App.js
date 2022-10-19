@@ -12,6 +12,7 @@ import ResultsListContainer from './components/Results/ResultsListContainer';
 import CartProvider from './context/CartContext';
 import LastResultProvider from './components/Results/ResultContext';
 import Cart from './components/Cart/Cart';
+import Checkout from './components/Checkout/Checkout';
 
 const App = () => {
   return(
@@ -27,6 +28,7 @@ const App = () => {
       <Route path='/team' element={<Team />}/> 
       <Route path='/results' element={<ResultsListContainer />}/>
       <Route path='/cart' element={<Cart />}/>
+      <Route path='/checkout' element={<Checkout />}/>
       <Route path='*' element={<Navigate to={"/"}/>}/>
      </Routes> 
      </LastResultProvider>

@@ -16,15 +16,15 @@ const NavBar = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <NavLink className="categories nav-link" to='/'>INICIO</NavLink>
-            <NavDropdown title="TIENDA" id="basic-nav-dropdown">
-            <NavLink className="categories nav-link" to='/category/camiseta'>CAMISETAS</NavLink>
-            <NavLink className="categories nav-link" to='/category/pantalon'>PANTALONES</NavLink>
-            <NavLink className="categories nav-link" to='/category/jugador'>JUGADOR</NavLink>
-            <NavLink className="categories nav-link" to='/category/portero'>PORTERO</NavLink>
+            <NavLink className="categories nav-link" to='/'>Inicio</NavLink>
+            <NavDropdown title="Tienda" id="basic-nav-dropdown">
+            <NavLink className="categories nav-link" to='/category/camiseta'>Camisetas</NavLink>
+            <NavLink className="categories nav-link" to='/category/pantalon'>Pantalones</NavLink>
+            <NavLink className="categories nav-link" to='/category/jugador'>Jugador</NavLink>
+            <NavLink className="categories nav-link" to='/category/portero'>Portero</NavLink>
             </NavDropdown>
-            <NavLink className="categories nav-link" to='/team'>PLANTILLA</NavLink>
-            <NavLink className="categories nav-link" to='/results'>RESULTADOS</NavLink>
+            <NavLink className="categories nav-link" to='/team'>Plantilla</NavLink>
+            <NavLink className="categories nav-link" to='/results'>Resultados</NavLink>
             <NavLink className="categories nav-link" to='/cart'><CartWidget /></NavLink>
           </Nav>
         </Navbar.Collapse>

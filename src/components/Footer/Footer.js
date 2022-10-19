@@ -15,6 +15,8 @@ const Footer = () => {
     <ul>
     <li><Link to={"/category/camiseta"}>Camisetas</Link></li>
     <li><Link to={"/category/pantalon"}>Pantalones</Link></li>
+    <li><Link to={"/category/jugador"}>Jugador</Link></li>
+    <li><Link to={"/category/portero"}>Portero</Link></li>
     </ul>
     </li>
   <li><Link to={'/team'}>Plantilla</Link></li>

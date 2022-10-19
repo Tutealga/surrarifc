@@ -15,6 +15,7 @@ const ItemDetail = ({item}) => {
   }
 
     return(
+      <>
       <div className="cardProductDetail">
          <img src={item.pictureUrl}></img>
          <div>
@@ -24,11 +25,12 @@ const ItemDetail = ({item}) => {
            <p>Stock: {item.stock}</p>
            {
            goCart
-           ? <><Link id="checkout" className="pt-1 btn btn-primary" to='/cart'>Ir al carrito</Link><Link id="checkout" className="pt-1 btn btn-primary" to='/'>Seguir comprando</Link></>
+           ? <><Link id="checkout" className="btn m-1 btn-primary" to='/cart'>Ir al carrito</Link><Link id="checkout" className="btn m-1 btn-primary" to='/'>Seguir comprando</Link></>
            : <ItemCount initial={1} stock={item.stock} onAdd={onAdd}/>
            }
          </div>
       </div>
+      </> 
     );
 }
 
