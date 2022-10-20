@@ -13,6 +13,9 @@ Este proyecto es un e-commerce de mi equipo de futbol con amigos, donde podemos:
 Para acceder al proyecto y probarlo de manera online, acceder al siguiente enlace:
 https://tutealga.github.io/surrarifc/
 
+## Firebase - Autenticación y Almacenamiento
+El almacenamiento de información (Listado de Productos, Ordenes de Compra) se utilizaron los servicios de almacenamiento de Firebase.
+
 ## Librerías utilizadas
 
 Las librerías utilizadas hasta el momento para este proyecto son: 
