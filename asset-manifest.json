@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/surrarifc/static/css/main.bee6958b.css",
-    "main.js": "/surrarifc/static/js/main.04862ff4.js",
+    "main.css": "/surrarifc/static/css/main.8b4e2723.css",
+    "main.js": "/surrarifc/static/js/main.6760288a.js",
     "static/media/laresaka.png": "/surrarifc/static/media/laresaka.9a985dfcc1d344836c80.png",
     "static/media/asd.jpg": "/surrarifc/static/media/asd.f5d1ab88619ba219b684.jpg",
     "static/media/realplax.png": "/surrarifc/static/media/realplax.ada19787f5f6ba194935.png",
@@ -10,11 +10,11 @@
     "static/media/losrompe.png": "/surrarifc/static/media/losrompe.4e4c65a3b1d23388af94.png",
     "static/media/sinescudo.png": "/surrarifc/static/media/sinescudo.724d349180410b7e685d.png",
     "index.html": "/surrarifc/index.html",
-    "main.bee6958b.css.map": "/surrarifc/static/css/main.bee6958b.css.map",
-    "main.04862ff4.js.map": "/surrarifc/static/js/main.04862ff4.js.map"
+    "main.8b4e2723.css.map": "/surrarifc/static/css/main.8b4e2723.css.map",
+    "main.6760288a.js.map": "/surrarifc/static/js/main.6760288a.js.map"
   },
   "entrypoints": [
-    "static/css/main.bee6958b.css",
-    "static/js/main.04862ff4.js"
+    "static/css/main.8b4e2723.css",
+    "static/js/main.6760288a.js"
   ]
 }
