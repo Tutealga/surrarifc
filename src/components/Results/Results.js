@@ -8,12 +8,12 @@ const Results = ({results}) => {
         <div className="resultDiv">
           <div className="team1">
            <p className="teamName">SURRARI F.C</p>
-           <img className="shield" src={surrari}></img>
+           <img className="shield" alt="Surrari" src={surrari}></img>
            <p className="goals">{results.goals}</p>
           </div>
           <div className="team2">
           <p className="goalsAgainst">{results.goalsAgainst}</p>
-          <img className="shield" src={results.shieldRival}></img>
+          <img className="shield" alt="Escudo rival" src={results.shieldRival}></img>
             <p className="teamName">{results.rival}</p>
           </div>
         </div>

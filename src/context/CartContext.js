@@ -10,7 +10,6 @@ const CartProvider = ({ children }) =>{
 const [cart, setCart] = useLocalStorage("cart", []);
 
 const addItem = (item, quantity) =>{
-    {
     isInCart(item.id)
     ?
     setCart(cart.map(product => {
@@ -18,7 +17,7 @@ const addItem = (item, quantity) =>{
     }))
     :
     setCart([...cart, {...item, quantity}]);
-}};
+};
 
 const totalPrice = () =>{
     return cart.reduce((prev, act) => prev + act.quantity * act.price, 0);

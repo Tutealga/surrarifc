@@ -26,7 +26,7 @@
     font-weight: 700 !important;
     font-size: .75rem !important;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
 }
 
 .playerName{

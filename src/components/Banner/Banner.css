@@ -11,7 +11,7 @@
   
   .banner3{
     display: grid;
-    align-items: end;
+    align-items: flex-end;
   }
   
   .banner img{
@@ -31,7 +31,7 @@
       
       .banner3{
         display: grid;
-        align-items: end;
+        align-items: flex-end;
       }
       
       .fdc{
